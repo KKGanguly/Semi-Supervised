@@ -44,7 +44,7 @@ from sklearn.linear_model import LinearRegression, Lasso
 
 import SMOTE
 from EATT.eatt import EATT
-from semisup_learn.methods.qns3vm_old import QN_S3VM
+from semisup_learn.methods.qns3vm import QN_S3VM
 # from safeu.classification.TSVM import TSVM
 from mvlearn.semi_supervised import CTClassifier
 import metrices as nmetrics
